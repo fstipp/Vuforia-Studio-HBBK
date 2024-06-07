@@ -92,6 +92,30 @@ ___
 ___
 
 ## Demoprojekt "Biegevorrichtung"
-### Einleitung
-* Alle notwendigen Dateien (Bilder, CAD-Daten, Videos etc.) befinden sich in diesem Repository unter `Ressourcen`  
+### Vorbereitung
+* Alle notwendigen Dateien (Bilder, CAD-Daten, Videos etc.) befinden sich in diesem Repository unter `Ressourcen`
+* Laden Sie am besten alle Ressourcen herunter, um die Demo direkt zu implementieren
 ### Erstellen einer neuen Experience 
+1. Öffnen Sie Vuforia Studio.
+2. Klicken Sie auf das grüne Plus in der oberen rechten Ecke, um ein neues Projekt zu erstellen.
+   
+   ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/b6113ee7-fd74-49ad-930c-4ad3ed0da0e2)
+4. Wählen Sie Mobilgerät - Standard als Vorlagentyp aus.
+5. Geben Sie im Fenster Projektname `Biegevorrichtung Demo` ein, und geben Sie Ihre Experience Service URL an. Klicken Sie auf Erstellen.
+6. Die Entwicklungsumgebung von Vuforia Studio wird nun geöffnet.
+
+   ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/7f3840b8-58b3-4b8f-9035-9df88529290f)
+### Einfügen eines 3D-Modells
+1. Ziehen Sie ein Modell-Widget auf die mittlere Canvas, und legen Sie es ab. In der Canvas wird ein Standard-"Würfel" angezeigt, der das 3D-Modell darstellt.
+
+   ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/0ae23ccf-490e-482c-8ebe-e9db1e7d77e4)
+2. Klicken Sie bei ausgewähltem Modell unter EIGENSCHAFTEN auf das grüne + Zeichen neben dem Dropdown-Menü unter dem Feld Ressource.
+
+   ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/4ab4e4b9-3ef2-47e8-a7c2-cd9d15ff1113)
+3. Klicken Sie im Fenster Ressourcen hinzufügen auf Dateien auswählen.
+4. Navigieren Sie zu dem Speicherort, an den Sie die Ressourcen für diese Demo gespeichert haben, und wählen Sie die Datei blue_pump.pvz aus. Klicken Sie auf Öffnen.
+5. Klicken Sie im Fenster Ressourcen hinzufügen auf Hinzufügen
+
+
+
+
