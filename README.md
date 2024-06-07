@@ -21,7 +21,7 @@
   - [Installation](#installation)
   - [Grundfunktionen](#grundfunktionen)
   - [Javascript](#javascript)
-- [Roadmap](#roadmap)
+- [Demoprojekt - "Biegevorrichtung"](#demoprojekt-biegevorrichtung)
 
 ## Über das Projekt
 
@@ -41,7 +41,7 @@ Diese Dokumentation dient also zur Zusammenfassung des gelernten und bietet die 
 ### Voraussetzungen
 
 * Eine lokale Installation von [Vuforia Studio](https://www.ptc.com/en/success-paths/develop-first-vuforia-studio-experience/setup/install-vuforia-studio-software)
-* Ein - oder mehrere [Thingmarks](https://support.ptc.com/help/vuforia/studio/en/index.html#page/Studio_Help_Center/Widget3DMarker.html) für das Testen mit der Hololens
+* Ein - oder mehrere [Thingmarks](https://support.ptc.com/help/vuforia/studio/en/index.html#page/Studio_Help_Center/Widget3DMarker.html) für das Testen der App
 
 ### Vuforia Experience Server
 
@@ -112,9 +112,26 @@ ___
 2. Klicken Sie bei ausgewähltem Modell unter EIGENSCHAFTEN auf das grüne + Zeichen neben dem Dropdown-Menü unter dem Feld Ressource.
 
    ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/4ab4e4b9-3ef2-47e8-a7c2-cd9d15ff1113)
-3. Klicken Sie im Fenster Ressourcen hinzufügen auf Dateien auswählen.
-4. Navigieren Sie zu dem Speicherort, an den Sie die Ressourcen für diese Demo gespeichert haben, und wählen Sie die Datei blue_pump.pvz aus. Klicken Sie auf Öffnen.
-5. Klicken Sie im Fenster Ressourcen hinzufügen auf Hinzufügen
+3. Klicken Sie im Fenster Ressourcen hinzufügen (+) auf Dateien auswählen.
+4. Navigieren Sie zu dem Speicherort, an den Sie die Ressourcen für diese Demo gespeichert haben, und wählen Sie die Datei [Biegevorrichtung_Hebel_Animationen.pvz](https://github.com/fstipp/Vuforia-Studio-HBBK/blob/main/ressources/Biegevorrichtung_Hebel_Animationen.pvz) aus. Klicken Sie auf Öffnen.
+5. Klicken Sie im Fenster Ressourcen hinzufügen auf Hinzufügen.
+
+   ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/fc90c003-1158-4f99-b14f-fe50310bd05a)
+6. In der Canvas wird nun das 3D-Modell angezeigt
+
+   ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/402d2d77-2620-4b64-b050-59e2d7d6919d)
+> Das 3D-Modell `Biegevorrichtung_Hebel_Animationen.pvz` enthält bereits Animationen, die im vorhinein mithilfe von PTC Creo Illustrate erstellt wurden. Generell lassen sich aber alle gängigen 3D-Dateien auf die Canvas einfügen. Um später Einzelteile einer Baugruppe anprechen zu können empfiehlt sich das `.step` Format
+
+7. Sobald Sie die Datei `Biegevorrichtung_Hebel_Animationen.pvz` hinzugefügt haben, wird die Dropdown-Liste Sequenz automatisch mit der Datei `Hebel Sequenz` gefüllt. Wählen Sie sie aus, um dem Modell die Hebel-Animationssequenz hinzuzufügen und die korrekte Darstellung des Modells herzustellen.
+
+   ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/adc8a321-2db1-4bbc-88f5-a97fd66e87e3)
+8. Klicken Sie in der Mitte oben in der Canvas auf das Symbol Transformieren.
+
+    ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/5b72ae36-51a9-45f1-bfca-d7911190f998)
+9. Klicken Sie auf den roten Bogen des Tools Transformieren, und ziehen Sie, bis das Modell um 90 Grad im Uhrzeigersinn gedreht ist. X-, Y- und Z-Koordinate werden durch die Farbe angezeigt, wobei Rot für X, Grün für Y und Blau für Z steht.
+> Alternativ können Sie den Wert -90 im Feld X-Drehung für die Modelleigenschaften eingeben.
+
+
 
 
 
