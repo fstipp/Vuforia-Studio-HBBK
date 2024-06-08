@@ -122,14 +122,16 @@ ___
    ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/402d2d77-2620-4b64-b050-59e2d7d6919d)
 > Das 3D-Modell `Biegevorrichtung_Hebel_Animationen.pvz` enthält bereits Animationen, die im vorhinein mithilfe von PTC Creo Illustrate erstellt wurden. Generell lassen sich aber alle gängigen 3D-Dateien auf die Canvas einfügen. Um später Einzelteile einer Baugruppe anprechen zu können empfiehlt sich das `.step` Format
 
-7. Sobald Sie die Datei `Biegevorrichtung_Hebel_Animationen.pvz` hinzugefügt haben, wird die Dropdown-Liste Sequenz automatisch mit der Datei `Hebel Sequenz` gefüllt. Wählen Sie sie aus, um dem Modell die Hebel-Animationssequenz hinzuzufügen und die korrekte Darstellung des Modells herzustellen.
+7. Sobald Sie die Datei `Biegevorrichtung_Hebel_Animationen.pvz` hinzugefügt haben, wird die Dropdown-Liste Sequenz automatisch mit der Datei `Hebel Sequenz` gefüllt. Wählen Sie sie aus, um dem Modell die Hebel-Animationssequenz hinzuzufügen.
 
-   ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/adc8a321-2db1-4bbc-88f5-a97fd66e87e3)
+   ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/83bf6e7e-a5d7-4b54-a424-9dae6e0f9e4e)
 8. Klicken Sie in der Mitte oben in der Canvas auf das Symbol Transformieren.
 
     ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/5b72ae36-51a9-45f1-bfca-d7911190f998)
 9. Klicken Sie auf den roten Bogen des Tools Transformieren, und ziehen Sie, bis das Modell um 90 Grad im Uhrzeigersinn gedreht ist. X-, Y- und Z-Koordinate werden durch die Farbe angezeigt, wobei Rot für X, Grün für Y und Blau für Z steht.
 > Alternativ können Sie den Wert -90 im Feld X-Drehung für die Modelleigenschaften eingeben.
+10. Klicken Sie bei weiterhin ausgewähltem Werkzeug Transformieren auf die Pfeile, und ziehen Sie, bis das Modell da platziert ist, wo Sie es platzieren möchten.
+11. Klicken Sie auf Speichern.
 
 
 
