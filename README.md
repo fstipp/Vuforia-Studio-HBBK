@@ -139,11 +139,33 @@ Experiences in Vuforia View werden durch das Scannen des ThingMarks von Ihrem Ge
 1. Ziehen Sie ein ThingMark Widget in die Canvas, und legen Sie es ab.
 
    ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/c2c30cc6-bd01-4494-aa8d-5a50aeb83b57)
+   ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/84b9afbe-cef3-45e5-8a3a-f1b76e81260f)
+
 Die Platzierung des ThingMark in Vuforia Studio entspricht direkt der Position, an der das AR-Erlebnis das Modell in Vuforia View platziert.
 Das gilt auch für die Drehung. Sie sollten entweder das digitale ThingMark genauso drehen, wie es in der Wirklichkeit platziert wird, oder die ThingMark in der Wirklichkeit so drehen, dass ihre Ausrichtung der in Vuforia Studio entspricht.
 > Für das Demoprojekt kann auch das räumliche Ziel (spartial Target) benutzt werden - Das vorgehen ist identisch
 
-### 
+### 3D-Bild einfügen
+1. Ziehen Sie ein 3D-Bild Widget in die Canvas
+2. Wählen Sie die Ressource des Bildes aus `explosionsdarstellung.png`
+
+   ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/0c2457dd-157f-4fe1-b8dd-051f47412a8c)
+3. Nutzen Sie das `Skalierung`-Feld und die bunten Transformationspfeile, um das Bild korrekt auszurichten
+
+   ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/73791367-ef7c-4e3d-b07c-c226df23b130)
+
+### Animation abspielen
+Sofern auf dem 3D-Modell bereits Animationen hinterlegt sind, lassen sich diese ganz einfach abspielen. In diesem Beispiel wollen wir die hinterlegte Animation per Tippen auf das Modell auslösen - Möglich sind aber auch Buttons oder Bilder als Auslöser hierfür.
+1. Im Strukturbaum das Modell auswählen (model-1) und bei den Eigenschaften nach ganz unten scrollen
+
+   ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/e8332138-5944-4415-8d37-16adcdc00495)
+2. Das `Klicken` Event an dem Pfeil ziehen und per Drag and Drop auf das 3D-Modell legen
+
+   ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/99d5b8f3-bfd4-4429-8e74-4010ec040d68)
+3. Es öffnet sich nun ein Pop-Up Fenster - Wählen Sie hier `Alle widergeben` als Bindungsziel aus und klicken sie auf `Binden`
+
+   ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/0a6c6f2b-b95b-449b-9cb5-ef1edbda4aea)
+
 
 
 
