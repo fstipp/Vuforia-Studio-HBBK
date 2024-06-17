@@ -166,6 +166,34 @@ Sofern auf dem 3D-Modell bereits Animationen hinterlegt sind, lassen sich diese 
 
    ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/0a6c6f2b-b95b-449b-9cb5-ef1edbda4aea)
 
+> Tipp: Sie können ihre Experience immer mal wieder Testen in dem Sie oben auf `Preview` bzw. `Vorschau` klicken. Es öffnet sich dann eine Simulation der App im Browser, in dieser können Sie schauen ob, die von Ihnen implementierten Funktionen korrekt sind.
+
+### 2D-Buttons einfügen
+Da jetzt der 3D-Anteil Ihres Erlebnisses fertig ist, lassen Sie uns einige 2D-Elemente hinzufügen.
+1. Klicken Sie in der Canvas-Symbolleiste auf 2D.
+  
+   ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/7ff2e014-0970-42e5-a0ba-b447e9e5de72)
+2. Navigieren Sie im Fensterbereich PROJEKT zu `Ansichten > Startseite > 2D-Überlagerung`.
+3. Ziehen Sie ein Raster-Layout-Widget auf den unteren Bereich, und legen Sie es ab.
+
+   ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/141314b4-efa1-4ed2-bc00-85bf2dc7fd1f)
+4. Ziehen Sie ein Umschalten-Widget in das Raster-Layout
+
+   ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/d92cb6d0-fdfd-4bba-a25c-f8ec05fa5d5e)
+
+5. Navigieren Sie im Fensterbereich PROJEKT zu `Ansichten > Startseite > 2D-Überlagerung > 2D-Körper > Unterer Bereich > gridLayout-1 > row-1` und klicken Sie auf den Eintrag `column-1`, um ihn auszuwählen.
+6. Setzen Sie die beiden Ausrichtungen auf Mitte
+
+   ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/7ae26d3a-a110-426e-8fc4-6e347f4e200d)
+7. Ändern Sie in in den Eigenschaften die Beschriftung zu `Explosionsdarstellung`
+
+   ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/797a4bed-ae91-4826-9195-9a0c0fa8e070)
+
+> Ziel ist es nun den Toogle-Button bzw. die Umschaltung so zu verbinden, dass auf Knopfdruck das 3D-Bild verschwindet und beim 'entdrücken' dieses wieder erscheint.
+
+8. sodjdjvb ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/d4eba904-5a92-4446-b116-2f1404c156a0) oaugdiu
+
+
 
 
 
