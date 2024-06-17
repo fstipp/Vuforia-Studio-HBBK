@@ -133,6 +133,18 @@ ___
 10. Klicken Sie bei weiterhin ausgewähltem Werkzeug Transformieren auf die Pfeile, und ziehen Sie, bis das Modell da platziert ist, wo Sie es platzieren möchten.
 11. Klicken Sie auf Speichern.
 
+### Einfügen eines ThinkMarks
+Experiences in Vuforia View werden durch das Scannen des ThingMarks von Ihrem Gerät angezeigt. Damit das 3D-Modell an der richtigen Stelle angezeigt wird, müssen Sie ein digitales ThingMark an derselben Stelle platzieren wie Ihr reales ThingMark. Wenn Sie beispielsweise möchten, dass das gedruckte ThingMark als Tischoberfläche für Ihre AR-Szene dient, platzieren Sie das ThingMark im Vuforia Studio unter dem Modell. Wenn Sie möchten, dass das gedruckte ThingMark auf die Oberfläche eines physischen Objekts angewendet wird, platzieren Sie das ThingMark entsprechend im Vuforia Studio.
+
+1. Ziehen Sie ein ThingMark Widget in die Canvas, und legen Sie es ab.
+
+   ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/c2c30cc6-bd01-4494-aa8d-5a50aeb83b57)
+Die Platzierung des ThingMark in Vuforia Studio entspricht direkt der Position, an der das AR-Erlebnis das Modell in Vuforia View platziert.
+Das gilt auch für die Drehung. Sie sollten entweder das digitale ThingMark genauso drehen, wie es in der Wirklichkeit platziert wird, oder die ThingMark in der Wirklichkeit so drehen, dass ihre Ausrichtung der in Vuforia Studio entspricht.
+> Für das Demoprojekt kann auch das räumliche Ziel (spartial Target) benutzt werden - Das vorgehen ist identisch
+
+### 
+
 
 
 
