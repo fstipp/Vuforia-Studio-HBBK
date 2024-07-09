@@ -185,13 +185,31 @@ Da jetzt der 3D-Anteil Ihres Erlebnisses fertig ist, lassen Sie uns einige 2D-El
 6. Setzen Sie die beiden Ausrichtungen auf Mitte
 
    ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/7ae26d3a-a110-426e-8fc4-6e347f4e200d)
-7. Ändern Sie in in den Eigenschaften die Beschriftung zu `Explosionsdarstellung`
+7. Navigieren Sie wieder zu dem Umschalten-Widget und ändern Sie in den Eigenschaften die Beschriftung zu `Explosionsdarstellung`
 
    ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/797a4bed-ae91-4826-9195-9a0c0fa8e070)
 
 > Ziel ist es nun den Toogle-Button bzw. die Umschaltung so zu verbinden, dass auf Knopfdruck das 3D-Bild verschwindet und beim 'entdrücken' dieses wieder erscheint.
 
-8. sodjdjvb ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/d4eba904-5a92-4446-b116-2f1404c156a0) oaugdiu
+8. Ziehe dazu in den Eigenschaften des Umschalt-Widgets das Bindingsymbol neben der Eigenschaft `Wert` ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/d4eba904-5a92-4446-b116-2f1404c156a0) auf das 3D-Image im Strukturbaum.
+
+   ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/14c07ef0-f97f-4722-b61c-18a78d5e59d2)
+9. Wähle die Eigenschaft `Sichtbar` als Bindungsziel und klicken Sie auf Binden.
+
+    ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/fc75829d-03fc-4cc9-8393-5d6875a9d40e)
+
+### Animationen in Vuforia Studio erstellen
+Falls Creo Illustrate für das erstellen von Animationen nicht zur Verfügung steht, gibt es auch die Möglichkeit mithilfe des Einsatzes von JavaScript-Codes Teile des Modells zu bewegen. Dazu müssen wir zunächst im Modell alle Teile "markieren", welche wir animieren wollen. 
+Ziel ist es eine Explosionsdarstellung zu erstellen.
+
+1. Navigieren Sie zunächst wieder auf die 3D-Ansicht der Experience ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/ea030e4c-2d64-4fbf-ab1f-984ffbbc7c49)
+
+2. Ziehen Sie nun ein Modellelement-Widget auf den Teil des 3D-Modells, welchen Sie bewegen möchten.
+
+   <img width="708" alt="image" src="https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/2da27f9f-863d-4fd3-89fa-6df36f754a5e">
+> Achtung: Hierfür muss dieser Teil des Modells eine eigene Komponente in dem zugrunde liegenden CAD-Modell sein.
+3. 
+
 
 
 
