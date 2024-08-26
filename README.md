@@ -93,7 +93,7 @@ ___
 
 ## Demoprojekt "Biegevorrichtung"
 ### Vorbereitung
-* Alle notwendigen Dateien (Bilder, CAD-Daten, Videos etc.) befinden sich in diesem Repository unter `Ressourcen`.
+* Alle notwendigen Dateien (Bilder, CAD-Daten, Vuforia-Studio Projekte etc.) befinden sich in diesem Repository unter `Ressourcen`.
 * Laden Sie am besten alle Ressourcen herunter, um die Demo direkt zu implementieren.
 ### Erstellen einer neuen Experience 
 1. Öffnen Sie Vuforia Studio.
