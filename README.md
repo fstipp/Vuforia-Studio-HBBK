@@ -93,15 +93,15 @@ ___
 
 ## Demoprojekt "Biegevorrichtung"
 ### Vorbereitung
-* Alle notwendigen Dateien (Bilder, CAD-Daten, Videos etc.) befinden sich in diesem Repository unter `Ressourcen`
-* Laden Sie am besten alle Ressourcen herunter, um die Demo direkt zu implementieren
+* Alle notwendigen Dateien (Bilder, CAD-Daten, Videos etc.) befinden sich in diesem Repository unter `Ressourcen`.
+* Laden Sie am besten alle Ressourcen herunter, um die Demo direkt zu implementieren.
 ### Erstellen einer neuen Experience 
 1. Öffnen Sie Vuforia Studio.
 2. Klicken Sie auf das grüne Plus in der oberen rechten Ecke, um ein neues Projekt zu erstellen.
    
    ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/b6113ee7-fd74-49ad-930c-4ad3ed0da0e2)
 4. Wählen Sie Mobilgerät - Standard als Vorlagentyp aus.
-5. Geben Sie im Fenster Projektname `Biegevorrichtung Demo` ein, und geben Sie Ihre Experience Service URL an. Klicken Sie auf Erstellen.
+5. Geben Sie im Fenster Projektname `Biegevorrichtung Demo` ein und geben Sie Ihre Experience Service URL an. Klicken Sie auf Erstellen.
 6. Die Entwicklungsumgebung von Vuforia Studio wird nun geöffnet.
 
    ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/7f3840b8-58b3-4b8f-9035-9df88529290f)
@@ -109,7 +109,7 @@ ___
 1. Ziehen Sie ein Modell-Widget auf die mittlere Canvas, und legen Sie es ab. In der Canvas wird ein Standard-"Würfel" angezeigt, der das 3D-Modell darstellt.
 
    ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/0ae23ccf-490e-482c-8ebe-e9db1e7d77e4)
-2. Klicken Sie bei ausgewähltem Modell unter EIGENSCHAFTEN auf das grüne + Zeichen neben dem Dropdown-Menü unter dem Feld Ressource.
+2. Klicken Sie bei ausgewähltem Modell unter Eigenschaften auf das grüne + Zeichen neben dem Dropdown-Menü unter dem Feld Ressource.
 
    ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/4ab4e4b9-3ef2-47e8-a7c2-cd9d15ff1113)
 3. Klicken Sie im Fenster Ressourcen hinzufügen (+) auf Dateien auswählen.
@@ -117,10 +117,10 @@ ___
 5. Klicken Sie im Fenster Ressourcen hinzufügen auf Hinzufügen.
 
    ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/fc90c003-1158-4f99-b14f-fe50310bd05a)
-6. In der Canvas wird nun das 3D-Modell angezeigt
+6. In der Canvas wird nun das 3D-Modell angezeigt.
 
    ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/402d2d77-2620-4b64-b050-59e2d7d6919d)
-> Das 3D-Modell `Biegevorrichtung_Hebel_Animationen.pvz` enthält bereits Animationen, die im vorhinein mithilfe von PTC Creo Illustrate erstellt wurden. Generell lassen sich aber alle gängigen 3D-Dateien auf die Canvas einfügen. Um später Einzelteile einer Baugruppe anprechen zu können empfiehlt sich das `.step` Format
+> Das 3D-Modell `Biegevorrichtung_Hebel_Animationen.pvz` enthält bereits Animationen, die im vorhinein mithilfe von PTC Creo Illustrate erstellt wurden. Generell lassen sich aber alle gängigen 3D-Dateien auf die Canvas einfügen. Um später Einzelteile einer Baugruppe ansprechen zu können empfiehlt, sich das `.step` Format
 
 7. Sobald Sie die Datei `Biegevorrichtung_Hebel_Animationen.pvz` hinzugefügt haben, wird die Dropdown-Liste Sequenz automatisch mit der Datei `Hebel Sequenz` gefüllt. Wählen Sie sie aus, um dem Modell die Hebel-Animationssequenz hinzuzufügen.
 
@@ -133,7 +133,7 @@ ___
 10. Klicken Sie bei weiterhin ausgewähltem Werkzeug Transformieren auf die Pfeile, und ziehen Sie, bis das Modell da platziert ist, wo Sie es platzieren möchten.
 11. Klicken Sie auf Speichern.
 
-### Einfügen eines ThinkMarks
+### Einfügen eines ThingMarks
 Experiences in Vuforia View werden durch das Scannen des ThingMarks von Ihrem Gerät angezeigt. Damit das 3D-Modell an der richtigen Stelle angezeigt wird, müssen Sie ein digitales ThingMark an derselben Stelle platzieren wie Ihr reales ThingMark. Wenn Sie beispielsweise möchten, dass das gedruckte ThingMark als Tischoberfläche für Ihre AR-Szene dient, platzieren Sie das ThingMark im Vuforia Studio unter dem Modell. Wenn Sie möchten, dass das gedruckte ThingMark auf die Oberfläche eines physischen Objekts angewendet wird, platzieren Sie das ThingMark entsprechend im Vuforia Studio.
 
 1. Ziehen Sie ein ThingMark Widget in die Canvas, und legen Sie es ab.
@@ -143,30 +143,30 @@ Experiences in Vuforia View werden durch das Scannen des ThingMarks von Ihrem Ge
 
 Die Platzierung des ThingMark in Vuforia Studio entspricht direkt der Position, an der das AR-Erlebnis das Modell in Vuforia View platziert.
 Das gilt auch für die Drehung. Sie sollten entweder das digitale ThingMark genauso drehen, wie es in der Wirklichkeit platziert wird, oder die ThingMark in der Wirklichkeit so drehen, dass ihre Ausrichtung der in Vuforia Studio entspricht.
-> Für das Demoprojekt kann auch das räumliche Ziel (spartial Target) benutzt werden - Das vorgehen ist identisch
+> Für das Demoprojekt kann auch das räumliche Ziel (spartial Target) benutzt werden - Das Vorgehen ist identisch.
 
 ### 3D-Bild einfügen
-1. Ziehen Sie ein 3D-Bild Widget in die Canvas
-2. Wählen Sie die Ressource des Bildes aus `explosionsdarstellung.png`
+1. Ziehen Sie ein 3D-Bild Widget in die Canvas.
+2. Wählen Sie die Ressource des Bildes aus `explosionsdarstellung.png`.
 
    ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/0c2457dd-157f-4fe1-b8dd-051f47412a8c)
-3. Nutzen Sie das `Skalierung`-Feld und die bunten Transformationspfeile, um das Bild korrekt auszurichten
+3. Nutzen Sie das `Skalierung`-Feld und die bunten Transformationspfeile, um das Bild korrekt auszurichten.
 
    ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/73791367-ef7c-4e3d-b07c-c226df23b130)
 
 ### Animation abspielen
 Sofern auf dem 3D-Modell bereits Animationen hinterlegt sind, lassen sich diese ganz einfach abspielen. In diesem Beispiel wollen wir die hinterlegte Animation per Tippen auf das Modell auslösen - Möglich sind aber auch Buttons oder Bilder als Auslöser hierfür.
-1. Im Strukturbaum das Modell auswählen (model-1) und bei den Eigenschaften nach ganz unten scrollen
+1. Im Strukturbaum das Modell auswählen (model-1) und bei den Eigenschaften nach ganz unten scrollen.
 
    ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/e8332138-5944-4415-8d37-16adcdc00495)
-2. Das `Klicken` Event an dem Pfeil ziehen und per Drag and Drop auf das 3D-Modell legen
+2. Das `Klicken` Event an dem Pfeil ziehen und per Drag and Drop auf das 3D-Modell legen.
 
    ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/99d5b8f3-bfd4-4429-8e74-4010ec040d68)
-3. Es öffnet sich nun ein Pop-Up Fenster - Wählen Sie hier `Alle widergeben` als Bindungsziel aus und klicken sie auf `Binden`
+3. Es öffnet sich nun ein Pop-Up Fenster - Wählen Sie hier `Alle wiedergeben` als Bindungsziel aus und klicken Sie auf `Binden`.
 
    ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/0a6c6f2b-b95b-449b-9cb5-ef1edbda4aea)
 
-> Tipp: Sie können ihre Experience immer mal wieder Testen in dem Sie oben auf `Preview` bzw. `Vorschau` klicken. Es öffnet sich dann eine Simulation der App im Browser, in dieser können Sie schauen ob, die von Ihnen implementierten Funktionen korrekt sind.
+> Tipp: Sie können Ihre Experience immer mal wieder Testen indem Sie oben auf `Preview` bzw. `Vorschau` klicken. Es öffnet sich dann eine Simulation der App im Browser, in dieser können Sie schauen ob die von Ihnen implementierten Funktionen korrekt sind.
 
 ### 2D-Buttons einfügen
 Da jetzt der 3D-Anteil Ihres Erlebnisses fertig ist, lassen Sie uns einige 2D-Elemente hinzufügen.
@@ -177,19 +177,19 @@ Da jetzt der 3D-Anteil Ihres Erlebnisses fertig ist, lassen Sie uns einige 2D-El
 3. Ziehen Sie ein Raster-Layout-Widget auf den unteren Bereich, und legen Sie es ab.
 
    ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/141314b4-efa1-4ed2-bc00-85bf2dc7fd1f)
-4. Ziehen Sie ein Umschalten-Widget in das Raster-Layout
+4. Ziehen Sie ein Umschalten-Widget in das Raster-Layout.
 
    ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/d92cb6d0-fdfd-4bba-a25c-f8ec05fa5d5e)
 
 5. Navigieren Sie im Fensterbereich PROJEKT zu `Ansichten > Startseite > 2D-Überlagerung > 2D-Körper > Unterer Bereich > gridLayout-1 > row-1` und klicken Sie auf den Eintrag `column-1`, um ihn auszuwählen.
-6. Setzen Sie die beiden Ausrichtungen auf Mitte
+6. Setzen Sie die beiden Ausrichtungen auf Mitte.
 
    ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/7ae26d3a-a110-426e-8fc4-6e347f4e200d)
-7. Navigieren Sie wieder zu dem Umschalten-Widget und ändern Sie in den Eigenschaften die Beschriftung zu `Explosionsdarstellung`
+7. Navigieren Sie wieder zu dem Umschalten-Widget und ändern Sie in den Eigenschaften die Beschriftung zu `Explosionsdarstellung`.
 
    ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/797a4bed-ae91-4826-9195-9a0c0fa8e070)
 
-> Ziel ist es nun den Toogle-Button bzw. die Umschaltung so zu verbinden, dass auf Knopfdruck das 3D-Bild verschwindet und beim 'entdrücken' dieses wieder erscheint.
+> Ziel ist es nun den Toggle-Button bzw. die Umschaltung so zu verbinden, dass auf Knopfdruck das 3D-Bild verschwindet und beim 'Loslassen' dieses wieder erscheint.
 
 8. Ziehe dazu in den Eigenschaften des Umschalt-Widgets das Bindingsymbol neben der Eigenschaft `Wert` ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/d4eba904-5a92-4446-b116-2f1404c156a0) auf das 3D-Image im Strukturbaum.
 
@@ -199,7 +199,7 @@ Da jetzt der 3D-Anteil Ihres Erlebnisses fertig ist, lassen Sie uns einige 2D-El
     ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/fc75829d-03fc-4cc9-8393-5d6875a9d40e)
 
 ### Animationen in Vuforia Studio erstellen
-Falls Creo Illustrate für das erstellen von Animationen nicht zur Verfügung steht, gibt es auch die Möglichkeit mithilfe des Einsatzes von JavaScript-Codes Teile des Modells zu bewegen. Dazu müssen wir zunächst im Modell alle Teile "markieren", welche wir animieren wollen. 
+Falls Creo Illustrate für das Erstellen von Animationen nicht zur Verfügung steht, gibt es auch die Möglichkeit mithilfe des Einsatzes von JavaScript-Codes Teile des Modells zu bewegen. Dazu müssen wir zunächst im Modell alle Teile "markieren", welche wir animieren wollen. 
 Ziel ist es eine Explosionsdarstellung zu erstellen.
 
 1. Navigieren Sie zunächst wieder auf die 3D-Ansicht der Experience ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/ea030e4c-2d64-4fbf-ab1f-984ffbbc7c49)
@@ -208,19 +208,19 @@ Ziel ist es eine Explosionsdarstellung zu erstellen.
 
    <img width="708" alt="image" src="https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/2da27f9f-863d-4fd3-89fa-6df36f754a5e">
 > Achtung: Hierfür muss dieser Teil des Modells eine eigene Komponente in dem zugrunde liegenden CAD-Modell sein.
-3. Das Teil wird in der Canvas farblich hervorgehoben und ist nun auch einzeln ansteuerbar unter dem namen `modelItem-2`
+3. Das Teil wird in der Canvas farblich hervorgehoben und ist nun auch einzeln ansteuerbar unter dem Namen `modelItem-2`
 
   ![image](https://github.com/user-attachments/assets/6b88ca6c-a55e-4855-bbd9-85266eaed31d)
 
-4. Dieser Schritt wird jetzt wiederholt angewendet für jedes Teil, welches Sie in der Explosionsanimation bewegen möchten. Für die Biegevorichtung ergib dies insgesamt 15 einzelteile, die wir definieren müssen.
+4. Dieser Schritt wird jetzt wiederholt angewendet für jedes Teil, welches Sie in der Explosionsanimation bewegen möchten. Für die Biegevorichtung ergibt dies insgesamt 15 Einzelteile, die wir definieren müssen.
 
    ![image](https://github.com/user-attachments/assets/19c4ff35-7cbe-4592-ba81-1d5875d0c9b4)
 
-5. Um die Einzelnen Teile nun über JavaScript bewegen zu können navigieren Sie als nächstes in der linken leiste zu `Home.js` bzw. `Startseite.js`
+5. Um die einzelnen Teile nun über JavaScript bewegen zu können navigieren Sie als nächstes in der linken Leiste zu `Home.js` bzw. `Startseite.js`
 
      ![image](https://github.com/user-attachments/assets/7ad0b9f5-1f95-4a6f-bad8-3f4deb3dc4d0)
 
-6. Fügen Sie den folgenden Code ein
+6. Fügen Sie den folgenden Code ein.
 ```javascript
    var explosionsansicht  = false;
 
@@ -279,19 +279,19 @@ Diese Flexibilität ermöglicht es Ihnen, die Animation an Ihre spezifischen Bed
 
 > Beachten Sie, dass die Wirkung der Animation stark von der Zuordnung der ModelItems im Projekt abhängt. Es ist empfehlenswert, das Demoprojekt als Referenz zu verwenden, um die Animation genau nachzubilden. Auch ohne diese Referenz kann die Animation funktionieren, allerdings müssen möglicherweise die Parameter der ModelItems angepasst werden, um die gewünschten Effekte zu erreichen.
 
-7. Um die gerade implementierte Animation abzuspielen verwenden wir den 2D-Button den wir zuvor erstellt haben. Navigieren Sie dazu im Struktubaum zu `toggle-1` 
+7. Um die gerade implementierte Animation abzuspielen verwenden wir den 2D-Button den wir zuvor erstellt haben. Navigieren Sie dazu im Strukturbaum zu `toggle-1` 
 
    ![image](https://github.com/user-attachments/assets/9d0440f8-124c-41a0-a14e-8bf413958157)
 
-8. Klicken Sie unten in den Eigenschaften auf `JS`-Symbol neben "Klicken"
+8. Klicken Sie unten in den Eigenschaften auf das `JS`-Symbol neben "Klicken".
 
  ![image](https://github.com/user-attachments/assets/82031b8d-222d-405b-a1b2-eb61e472e9bd)
 
-9. Es öffnet sich ein kleines Textfeld - geben Hier hier `press_explosion();` ein
+9. Es öffnet sich ein kleines Textfeld - geben Sie hier `press_explosion();` ein.
 
     ![image](https://github.com/user-attachments/assets/5f7edf33-57b2-4ed5-8ddb-3b6ea7051676)
 
-10. Nun speilt die Anmation, immer wenn Sie den Button "Explosionsdarstellung" drücken.
+10. Nun wird die Animation abgespielt, immer wenn Sie den Button "Explosionsdarstellung" drücken.
 
     ![image](https://github.com/user-attachments/assets/efceec9a-a09f-4f60-99d2-b1c613db98e3)
  
