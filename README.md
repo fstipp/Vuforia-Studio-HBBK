@@ -277,7 +277,7 @@ Nachdem der Code implementiert ist, gibt es einige zusätzliche Anpassungsmögli
 
 Diese Flexibilität ermöglicht es Ihnen, die Animation an Ihre spezifischen Bedürfnisse anzupassen und verschiedene visuelle Effekte zu erzielen.
 
-   
+> Beachten Sie, dass die Wirkung der Animation stark von der Zuordnung der ModelItems im Projekt abhängt. Es ist empfehlenswert, das Demoprojekt als Referenz zu verwenden, um die Animation genau nachzubilden. Auch ohne diese Referenz kann die Animation funktionieren, allerdings müssen möglicherweise die Parameter der ModelItems angepasst werden, um die gewünschten Effekte zu erreichen.
 
 
 
