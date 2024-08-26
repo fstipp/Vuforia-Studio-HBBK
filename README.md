@@ -269,6 +269,13 @@ $scope.press_explosion = function () {
     startExplosion(explosionsansicht ? 1 : -1)
   };
    ```
+Nachdem der Code implementiert ist, gibt es einige zusätzliche Anpassungsmöglichkeiten:
+
+-  **Richtungsachse anpassen**: Anstelle der `z`-Achse können auch die `x`- oder `y`-Achsen verwendet werden, um die Teile in andere Richtungen zu bewegen. Ersetzen Sie dafür einfach `.z` durch `.x` oder `.y` im Code.
+
+-  **Bewegungsweite steuern**: Die Zahl, die mit dem `direction`-Parameter multipliziert wird (z.B. `0.0003`), bestimmt, wie weit die Teile sich bewegen. Ein höherer Wert lässt die Teile weiter fliegen, während ein niedrigerer Wert die Bewegung entsprechend reduziert.
+
+Diese Flexibilität ermöglicht es Ihnen, die Animation an Ihre spezifischen Bedürfnisse anzupassen und verschiedene visuelle Effekte zu erzielen.
 
    
 
