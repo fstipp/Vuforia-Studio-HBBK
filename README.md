@@ -208,7 +208,70 @@ Ziel ist es eine Explosionsdarstellung zu erstellen.
 
    <img width="708" alt="image" src="https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/2da27f9f-863d-4fd3-89fa-6df36f754a5e">
 > Achtung: Hierfür muss dieser Teil des Modells eine eigene Komponente in dem zugrunde liegenden CAD-Modell sein.
-3. 
+3. Das Teil wird in der Canvas farblich hervorgehoben und ist nun auch einzeln ansteuerbar unter dem namen `modelItem-2`
+
+  ![image](https://github.com/user-attachments/assets/6b88ca6c-a55e-4855-bbd9-85266eaed31d)
+
+4. Dieser Schritt wird jetzt wiederholt angewendet für jedes Teil, welches Sie in der Explosionsanimation bewegen möchten. Für die Biegevorichtung ergib dies insgesamt 15 einzelteile, die wir definieren müssen.
+
+   ![image](https://github.com/user-attachments/assets/19c4ff35-7cbe-4592-ba81-1d5875d0c9b4)
+
+5. Um die Einzelnen Teile nun über JavaScript bewegen zu können navigieren Sie als nächstes in der linken leiste zu `Home.js` bzw. `Startseite.js`
+
+     ![image](https://github.com/user-attachments/assets/7ad0b9f5-1f95-4a6f-bad8-3f4deb3dc4d0)
+
+6. Fügen Sie den folgenden Code ein
+   ```javascript
+   var explosionsansicht  = false;
+
+
+$scope.press_explosion = function () {
+    function startExplosion(direction) {
+    var counter = 0
+    function animate() {
+      if (counter < 360) {
+        	counter += 1
+        // Hier werden alle Teile aufgeführt, welche bewegt werden sollen
+        
+        // Buchse + Hebel
+       	$scope.view.wdg['modelItem-1'].z += direction * 0.0003;
+        $scope.view.wdg['modelItem-2'].z += direction * 0.0003;
+        $scope.view.wdg['modelItem-3'].z += direction * 0.0003;
+        
+        // Bolzen
+        $scope.view.wdg['modelItem-4'].z += direction * 0.00055;
+        
+        // usw.
+        $scope.view.wdg['modelItem-5'].z += direction * 0.0002;
+        $scope.view.wdg['modelItem-6'].z += direction * 0.00025;
+        $scope.view.wdg['modelItem-7'].z += direction * 0.0002;
+        
+        $scope.view.wdg['modelItem-8'].z += direction * 0.00019;
+        $scope.view.wdg['modelItem-9'].z += direction * 0.00025;
+        
+        $scope.view.wdg['modelItem-10'].z += direction * 0.0002;
+        
+        $scope.view.wdg['modelItem-11'].z += direction * 0.00015;
+        
+        $scope.view.wdg['modelItem-12'].z += direction * 0.0001;
+        $scope.view.wdg['modelItem-13'].z += direction * 0.0001;
+        
+        $scope.view.wdg['modelItem-14'].z += direction * 0.00003;
+        
+        
+        ////
+        	$timeout(animate, 5);
+      } 
+    }
+    animate();
+    }
+      
+    explosionsansicht = !explosionsansicht;
+    startExplosion(explosionsansicht ? 1 : -1)
+  };
+   ```
+
+   
 
 
 
