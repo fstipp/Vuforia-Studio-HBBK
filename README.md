@@ -279,7 +279,22 @@ Diese Flexibilität ermöglicht es Ihnen, die Animation an Ihre spezifischen Bed
 
 > Beachten Sie, dass die Wirkung der Animation stark von der Zuordnung der ModelItems im Projekt abhängt. Es ist empfehlenswert, das Demoprojekt als Referenz zu verwenden, um die Animation genau nachzubilden. Auch ohne diese Referenz kann die Animation funktionieren, allerdings müssen möglicherweise die Parameter der ModelItems angepasst werden, um die gewünschten Effekte zu erreichen.
 
+7. Um die gerade implementierte Animation abzuspielen verwenden wir den 2D-Button den wir zuvor erstellt haben. Navigieren Sie dazu im Struktubaum zu `toggle-1` 
 
+   ![image](https://github.com/user-attachments/assets/9d0440f8-124c-41a0-a14e-8bf413958157)
+
+8. Klicken Sie unten in den Eigenschaften auf `JS`-Symbol neben "Klicken"
+
+ ![image](https://github.com/user-attachments/assets/82031b8d-222d-405b-a1b2-eb61e472e9bd)
+
+9. Es öffnet sich ein kleines Textfeld - geben Hier hier `press_explosion();` ein
+
+    ![image](https://github.com/user-attachments/assets/5f7edf33-57b2-4ed5-8ddb-3b6ea7051676)
+
+10. Nun speilt die Anmation, immer wenn Sie den Button "Explosionsdarstellung" drücken.
+
+    ![image](https://github.com/user-attachments/assets/efceec9a-a09f-4f60-99d2-b1c613db98e3)
+ 
 
 
 
