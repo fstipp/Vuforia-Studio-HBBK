@@ -25,14 +25,14 @@
 
 ## Über das Projekt
 
-Mit dem Ziel einer Einführung von Vuforia Studio am Hans-Böckler-Berufskolleg Münster zur Unterstützung des Technikunterrichts zur Förderung der digitalen Schlüsselkompetenzen im Bereich der Aufbau- und Funktionsanalyse anspruchsvoller technischer Systeme. Wurde eine Schulung zu den Schlüsselkonzepten in Vuforia Studio gegeben, welche in diesem Repoitory festgehalten werden sollen.
-Diese Dokumentation dient also zur Zusammenfassung des gelernten und bietet die Möglichkeit das Projekt Schritt für Schritt zu widerholen um die Techniken und Griffe zu verinnerlichen.
+Mit dem Ziel einer Einführung von Vuforia Studio am Hans-Böckler-Berufskolleg Münster zur Unterstützung des Technikunterrichts zur Förderung der digitalen Schlüsselkompetenzen im Bereich der Aufbau- und Funktionsanalyse anspruchsvoller technischer Systeme. Wurde eine Schulung zu den Schlüsselkonzepten in Vuforia Studio gegeben, welche in diesem Repository festgehalten werden sollen.
+Diese Dokumentation dient also zur Zusammenfassung des gelernten und bietet die Möglichkeit das Projekt Schritt für Schritt zu wiederholen, um die Techniken und Griffe zu verinnerlichen.
     Hierfür die Umsetzung eines Beispielprojektes "Biegevorrichtung"
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Entwickelt mit
 
-* [Vurofia Studio](https://www.ptc.com/de/products/vuforia/vuforia-studio)
+* [Vuforia Studio](https://www.ptc.com/de/products/vuforia/vuforia-studio)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -57,7 +57,7 @@ Log-in: Wurde zur Verfügung gestellt
      
      ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/d2554545-d177-487e-b540-fd85e2b34fee)
 2. Vuforia konfigurieren
-   * Oben Rechts au die 3 Punkte klicken
+   * Oben rechts auf die 3 Punkte klicken
    ![image](https://github.com/fstipp/Vuforia-Studio-HBBK/assets/119317738/331a6b2e-38ad-4ed3-8206-7d53809f2c23)
     * Einstellungen auswählen
       
