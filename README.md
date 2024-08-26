@@ -221,9 +221,8 @@ Ziel ist es eine Explosionsdarstellung zu erstellen.
      ![image](https://github.com/user-attachments/assets/7ad0b9f5-1f95-4a6f-bad8-3f4deb3dc4d0)
 
 6. Fügen Sie den folgenden Code ein
-   ```javascript
+```javascript
    var explosionsansicht  = false;
-
 
 $scope.press_explosion = function () {
     function startExplosion(direction) {
