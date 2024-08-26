@@ -1,1 +1,1 @@
-# Alle benötiten Files liegen in diesem Ordner
+# Alle benötigten Files liegen in diesem Ordner
